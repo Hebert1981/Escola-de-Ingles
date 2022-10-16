@@ -1,0 +1,186 @@
+#contato label{
+    font-size: 15pt;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888;
+    display: block;
+    margin-top: 20px;
+}
+
+#contato input[type="submit"],#contato input[type="reset"]{
+    color: red;
+    border: 0px;
+    width: 120px;
+    height: 50px;
+    background: #060;
+    color: #FFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.fixFloat{
+    clear: both;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color:#fff;
+    width: 960px;
+    overflow-y: scroll;
+  
+    
+}
+
+#cab{
+    background-color:aqua;
+    height: 100px;
+}
+
+#cab audio{
+    margin-top: 40px;
+    padding-left: 10px;
+
+}
+
+#cab img{
+    width: 100px;
+    float: left;
+    
+}
+
+#social{
+    float: right;
+    margin-top: 30px;
+}
+#social img{
+   
+    width: 32px;
+    height: 32px;
+}
+#menu{
+  float: left;
+  margin-top: 20px;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 20px 0px;
+    background: linear-gradient(to bottom, #DDD, #666);
+}
+#menu li{
+    height: 57px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border-right: 2px solid #062;
+    
+}
+#menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+#banner{
+    margin-top: 15px;
+    width: 960px;
+    height: 384px;
+    margin-bottom: 10px;
+}
+#banner img{
+    width: 960px;
+    height: 384px;
+}
+#b1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#b2{
+    position: relative;
+    left: 0px;
+    top: -388px;
+}
+#b3{
+    position: relative;
+    left: 0px;
+    top: -776px;
+}
+
+#lateral{
+    float: right;
+    background-color: #DDD;
+    width: 190px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#lateral h1{
+    font-size: 15px;
+    text-align: center;
+    border-bottom: #000 solid 1px ;
+    margin-top: -5px;
+}
+#lateral h2{
+    color: red;
+    font-size: 15px;
+}
+#lateral p{
+    text-align: justify;
+}
+#main{
+    background: #EEE;
+    width: 730px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#main h1{
+    font-size: 20pt;
+    border-bottom: #000 solid 1px;
+}
+#main h2{
+    font-size:15pt ;
+}
+#main p{
+    text-align: justify;
+}
+
+footer{
+    color: #888;
+    border: #000 solid 1px;
+}
+
+footer p{
+    display: inline-block;
+    width: 316px;
+    text-align: center;
+}
+
+details{
+    margin-top: 30px;
+    cursor: pointer;
+   
+}
+
+details p{
+    font-size: 20px;
+}
+
+summary{
+    height: 30px;
+    background: linear-gradient(to bottom,#EEE, #999);
+    font: 12pt Arial;
+    font-weight: bold;
+    padding: 10px 0px 0px 10px;
+}
+details[open] summary{
+    color: #fff;
+    background: linear-gradient(to bottom,#E00, #900);
+}
+details[open]{
+    
+    background: #eee;
+}
